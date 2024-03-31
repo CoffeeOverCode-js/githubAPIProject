@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h1
+    className="display-4"
+  >
+    Form
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Enter username:
+    </label>
+    <input
+      name="username"
+      onChange={[Function]}
+      required={true}
+      type="text"
+    />
+    <button
+      className="btn btn-default"
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

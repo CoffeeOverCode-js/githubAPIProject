@@ -1,0 +1,44 @@
+/* Sets the background color of the body to a dark grey and text color to white */
+body {
+    background-color: #333;
+    color: white;
+}
+
+/* Sets the height and width for all images to 200px */
+img {
+    height: 200px;
+    width: 200px;
+}
+
+/* Sets the height for all buttons to 35px */
+button {
+    height: 35px;
+}
+
+/* Defines the styles for buttons with class '.btn-default' */
+.btn-default {
+    background-color: rgb(105, 102, 102);
+}
+
+/* Defines the styles for buttons with class .btn-link */
+.btn-link {
+    color: turquoise;
+}
+
+/* changes the text color to white and removes the underline for links with class '.btn-link' when hovered on*/
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Creates a grid layout with two columns for an element with id '#container' */
+#container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+/* Sets teh text decoration for h3 elements within an element with id #repo-container */
+.btn-link h3 {
+    text-decoration: 2px; 
+}
+
